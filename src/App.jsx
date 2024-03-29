@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css"; // Import CSS file
 
-const apikey = import.meta.env.VITE_API_KEY;
+const apikey = '222f31f47b78be41bec75d130563080c';
 
 const App = () => {
   const [city, setCity] = useState("");
