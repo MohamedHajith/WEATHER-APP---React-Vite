@@ -1,0 +1,78 @@
+/* App.css */
+.navbar {
+  background-color: #471ed8;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-container input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  margin-right: -1px;
+}
+
+.input-container button {
+  background-color: #0037ff;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #0037ff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #4a45df;
+  border: 1px solid #455aa0;
+}
+
+.weather-info {
+  margin-top: 30px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(61, 57, 197, 0.914);
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-container input {
+    width: 60%;
+  }
+}
