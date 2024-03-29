@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css"; // Import CSS file
 
-const apikey = '222f31f47b78be41bec75d130563080c';
+const key = '222f31f47b78be41bec75d130563080c';
 
 const App = () => {
   const [city, setCity] = useState("");
@@ -10,7 +10,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`);
       setData(response.data);
     } catch(error) {
       console.log(error);
